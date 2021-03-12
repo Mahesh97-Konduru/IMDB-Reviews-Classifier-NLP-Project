@@ -34,5 +34,5 @@ jobs:
       with:
         app-name: 'ithink1'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_c32a2f2c4f134932a1120a9879d2f75d }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_9cee8a5b1a884016b357e2df478cd016 }}
         package: '.\myapp.zip'
